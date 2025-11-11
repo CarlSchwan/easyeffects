@@ -238,7 +238,7 @@ Kirigami.Page {
         id: modulesPage
 
         Kirigami.ScrollablePage {
-            Kirigami.CardsListView {
+            ListView {
                 id: modulesListView
 
                 clip: true
@@ -261,7 +261,7 @@ Kirigami.Page {
         id: clientsPage
 
         Kirigami.ScrollablePage {
-            Kirigami.CardsListView {
+            ListView {
                 id: clientsListView
 
                 clip: true
